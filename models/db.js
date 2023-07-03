@@ -1,0 +1,11 @@
+const config = {
+    user: 'usuario1',
+    password: 'Producto',
+    server: 'A-PHZ2-CIDI-026',
+    database: 'Proyectofinal',
+    options:{
+        trustServerCertificate: true,
+        trustedConnection: true,
+    },
+}
+export default config;
