@@ -10,7 +10,7 @@ export default function AppBoton() {
   }, []);
 
   const fetchImage = () => {
-    axios.get('http://localhost:3001/producto')
+    axios.get('http://localhost:3000/producto')
       .then((response) => {
         console.log(response);
         setProductos(response.data);
